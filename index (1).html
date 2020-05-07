@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Raleway'' rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lato' rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Kalam' rel="stylesheet">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+body{
+    margin:0;
+}
+#welcome-section{
+   height:100vh;
+   background:rgba(175, 142, 100,0.5);
+   background-size:cover;
+   display:flex;
+   justify-content:center;
+}
+
+#navbar{
+    display:flex;
+    top:0;
+    left:0;
+    position:fixed;
+    justify-content:flex-end;
+    width:100%;
+    z-index:10;
+    background:rgb(26, 24, 24);
+
+}
+#head{
+
+    margin-top:200px;
+    margin-left:100px;
+    font-family:Raleway;
+    font-size:50px;
+    color:rgb(26, 24, 24);
+
+}
+#proj{
+    display:flex;
+    font-family:Lato;
+}
+#proj a{
+    text-decoration:none;
+}
+#survey{
+
+    padding:40px;
+    margin:30px;
+    background:rgb(4, 4, 43);
+    border-radius:5px;
+    animation-name:surco;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+
+}
+ 
+    @keyframes surco{
+    0%{
+        background:rgb(4, 4, 82)
+    }
+    20%{
+        background:rgb(4,4,60);
+    }
+    40%{
+        background:rgb(4,4,50);
+    }
+    60%{
+        background:rgb(4, 4,45 );
+    }
+    80%{
+        background:rgb(4,4,95);
+    }
+    100%{
+        background:rgb(4, 4, 43);
+    }
+}
+ 
+#documentation{
+    
+    padding:40px;
+    margin:30px;
+    background:rgb(77, 2, 2);
+    border-radius:5px;
+    animation-name:docuco;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+
+}
+@keyframes docuco{
+    0%{
+        background:rgb(146, 2, 2);
+    }
+    20%{
+        background:rgb(110, 17, 17);
+    }
+    40%{
+        background:rgb(114, 22, 22);
+    }
+    60%{
+        background:rgb(129, 3, 3);
+    }
+    80%{
+        background:rgb(160, 0, 0);
+    }
+    100%{
+        background:rgb(77, 2, 2);
+    }
+}
+#Tribute_Page{
+    
+    padding:40px;
+    margin:30px;
+    background:rgb(1, 34, 1);
+    border-radius:5px;
+    animation-name:trico;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+
+}
+@keyframes trico{
+    0%{
+        background:rgb(2, 65, 2);
+    }
+    20%{
+        background:rgb(4, 80, 4);
+    }
+    40%{
+        background:rgb(21, 95, 21);
+    }
+    60%{
+        background:rgb(5, 88, 5);
+    }
+    80%{
+        background:rgb(1, 49, 1);
+    }
+    100%{
+        background:rgb(1, 34, 1);
+    }
+}
+#product{
+    
+    padding:40px;
+    margin:30px;
+    background:rgb(90, 54, 9);
+    border-radius:5px;
+    animation-name:proco;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+
+}
+@media screen {
+    
+}
+@keyframes proco{
+    0%{
+        background:rgb(131, 87, 7)
+    }
+    20%{
+        background:rgb(134, 88, 2)
+    }
+    40%{
+        background:rgb(128, 92, 25)
+    }
+    60%{
+        background:rgb(97, 66, 9)
+    }
+    80%{
+        background:rgb(109, 71, 1);
+    }
+    100%{
+        background:rgb(90, 54, 9);
+    }
+}
+#projects{  
+    background:rgba(82, 34, 1,0.7);
+    font-family:Lato;
+    font-size:30px;
+    margin-top:-80px;
+}
+#navbar a{
+    padding:5px;
+}
+.nav-link{
+    padding:10px;
+    margin:10px;
+    text-decoration:none;
+    color:white;
+}
+.nav-link:hover{
+    background:rgb(54, 53, 53);
+}
+.project-tile{
+    color:rgb(197, 193, 193);
+}
+#profiles{
+    height:100vh;
+    background:rgba(175, 142, 100,0.5);
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+}
+.siri{
+    color:black;
+    font: normal 20px Varela Round, sans-serif;
+    height: 140px;
+    left: 0;
+    letter-spacing: 5px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    width: 100%;
+    animation: move linear 2000ms infinite; 
+}
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  25% {    
+    text-shadow:      
+      -4px -4px 0 hsla(180, 100%, 50%, 1), 
+      -3px -3px 0 hsla(180, 100%, 50%, 1), 
+      -2px -2px 0 hsla(180, 100%, 50%, 1), 
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 hsla(0, 100%, 50%, 1), 
+      3px 3px 0 hsla(0, 100%, 50%, 1), 
+      2px 2px 0 hsla(0, 100%, 50%, 1), 
+      1px 1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 hsla(0, 100%, 50%, 1), 
+      -3px 3px 0 hsla(0, 100%, 50%, 1), 
+      -2px 2px 0 hsla(0, 100%, 50%, 1), 
+      -1px 1px 0 hsla(0, 100%, 50%, 1),
+      4px -4px 0 hsla(180, 100%, 50%, 1), 
+      3px -3px 0 hsla(180, 100%, 50%, 1), 
+      2px -2px 0 hsla(180, 100%, 50%, 1), 
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1), 
+      3px 3px 0 hsla(180, 100%, 50%, 1), 
+      2px 2px 0 hsla(180, 100%, 50%, 1), 
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 hsla(0, 100%, 50%, 1), 
+      -3px -3px 0 hsla(0, 100%, 50%, 1), 
+      -2px -2px 0 hsla(0, 100%, 50%, 1), 
+      -1px -1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }  
+}
+#profile_header{
+    text-align:center;
+    margin-top:85px;
+    font-family:Lato;
+    font-size:30px;
+    font-family:Kalam;
+    color:rgb(58, 57, 57);
+    /*position:relative;*/
+}
+#profiles a{
+    text-decoration: none;
+    text-align:center;
+}
+.profile-link{
+    text-align:center;
+    margin-top:150px;
+}
+#profileofmine{    
+    text-align:center;
+}
+#profilelinks{
+    list-style:none;
+    text-align:center;
+    color:black;
+}
+#profilelinks a{
+    text-align:center;
+    color:black;
+    font-family:lato;
+    padding:15px;
+    font-size:22px;
+}
+</style>
+
+</head>
+<body>
+<nav id="navbar">
+<a href="#projects" class="nav-link">Projects</a>
+<a href="#Contact" class="nav-link">Contact</a>
+<a href="#welcome-section" class="nav-link">Home</a>
+
+</nav>
+<container id="wc">
+<section id="welcome-section">
+    <h1 id="head">Welcome to my Portfolio</h1>
+    <br><br>
+    <p class="siri">Love to design webpages beautifully</p>
+</section>
+<section id="projects">
+    <h3>Projects</h3>
+    <p style="padding: 20px;">My projects include</p>
+    <container id="proj">
+    <div id="survey">
+    <a class="project-tile" href="https://siri251.github.io/SurveyForm/">Survey Form</a>
+    </div>
+    <div id="documentation">
+    <a class="project-tile" href="https://siri251.github.io/Documentation/">Documentation Page</a>
+    </div>
+    <div id="Tribute_Page">
+    <a class="project-tile" href="https://siri251.github.io/TributePage/">Tribute Page</a>
+    </div>
+    <div id="product">
+    <a class="project-tile" href="https://siri251.github.io/ProductLandingPage/">Product Landing Page</a>
+    </div>
+    </container>
+</section>
+</container>
+<container id="profiles">
+<div id="profile_header">
+<h5>To get in touch regarding my work you can contact me at-</h5>
+</div>
+<div id="profileofmine">
+<ul id="profilelinks">
+<a id="profile-link" href="https://github.com/shashilsravan" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+<a href="#" target="_blank" class="profile-link"><i class="fab fa-facebook"></i> Facebook</a>
+<a href="#" target="_blank" class="profile-link"><i class="fab fa-instagram"></i> Instagram</a>
+<a href="#" target="_blank" class="profile-link"><i class="fas fa-envelope"></i> E-mail</a>
+</div>
+</container>
+
+<footer id="Contact"></footer>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
